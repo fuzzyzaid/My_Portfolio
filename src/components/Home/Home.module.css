@@ -1,0 +1,88 @@
+/* Home.css */
+
+/* Global styles */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Menu styles */
+  .menu {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+  }
+  
+  .menu header {
+    font-size: 24px;
+  }
+  
+  .menu nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .menu nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .menu nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Content styles */
+  .content {
+    padding: 20px;
+  }
+  
+  .section {
+    margin-bottom: 40px;
+  }
+  
+  .section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .section p {
+    line-height: 1.6;
+  }
+  
+  /* Skills list styles */
+  .skillsList {
+    margin-bottom: 10px;
+  }
+  
+  /* Experience styles */
+  .experience {
+   background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .experience h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  
+  .experience ul {
+    padding-left: 20px;
+  }
+  
+  /* Project styles */
+  .project {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .project h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  
