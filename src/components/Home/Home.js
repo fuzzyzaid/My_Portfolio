@@ -81,6 +81,7 @@ function Home() {
               <div className={`col-md-3 ${styles.skillsList}`}><h3>Android Studio</h3></div>
               <div className={`col-md-3 ${styles.skillsList}`}><h3>GIT</h3></div>
               <div className={`col-md-3 ${styles.skillsList}`}><h3>SQL</h3></div>
+              <div className={`col-md-3 ${styles.skillsList}`}><h3>SQL</h3></div>
             </div>
           </section>
         </div>
