@@ -1,3 +1,63 @@
-.contact{
-    margin-right: 20px;
-}
+Header.module.css
+
+  .menuOpen {
+    height: auto; /* Adjust height when menu is open */
+  }
+  
+  .headerInfo {
+    padding: 15vh; /* Adjust padding */
+    text-align: center;
+  }
+  .mail{
+    color: #000001;
+  }
+  .linkedIn{
+    color: #0082ca;
+  }
+  .github{
+    color: #333333;
+  }
+  .phone{
+    color: #3b5998;
+  }
+  
+  .name {
+    font-size: 5rem; /* Larger font size */
+    color: #003b49;
+  }
+
+  .title{
+    font-size: 1.5rem; /* Larger font size */
+    color: #003b49;
+  }
+  
+  .intro {
+    font-size: 1.3rem; /* Larger font size */
+    color: #003b49;
+   
+  }
+  .profile{
+    width: 300px;
+    height: auto;
+  }
+  /* Hamburger Menu Icon */
+  .navbar-toggler {
+    display: none; /* Hide by default */
+  }
+  
+  /* Toggle hamburger menu and close icon on smaller screens */
+  @media (max-width: 767px) {
+    .navbar-toggler {
+      display: block; /* Show hamburger menu icon */
+      margin-left: auto; 
+    }
+  
+    .navbar-collapse {
+      display: none; /* Hide menu items by default */
+    }
+  
+    .navbar-collapse.show {
+      display: block; /* Show menu items when menu is open */
+    }
+  }
+  
