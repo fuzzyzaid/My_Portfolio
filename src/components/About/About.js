@@ -3,9 +3,9 @@ import styles from './About.module.css'
 
 function About() {
   return (
-    <div className={`container vh-120 bg-white`}>
+    <div className={`container vh-100 bg-white`}>
       <div className='row justify-content-center align-items-center'>
-        <div className='col-md-5 text-center text-md-start'>
+        <div className='col-12 col-lg-8 text-center text-md-start'>
           <h2 className="display-4 mb-4">About Me</h2>
           <p className="lead">
            Hello Everyone. Welcome to my portfolio! I'm Zaid Alam, a seasoned Full-Stack Developer with over three years of experience in crafting responsive websites. 
@@ -14,7 +14,7 @@ function About() {
           Join me on this journey as we explore the dynamic world of software development together.
         </p>
         </div>
-        <div className='col-md-5 text-center'>
+        <div className='col-10 col-lg-4 text-center'>
         <img src={"zaid.JPG"} className='img-fluid' alt="Zaid Alam" />
         </div>
       </div>
