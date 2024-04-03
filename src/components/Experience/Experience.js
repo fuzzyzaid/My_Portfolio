@@ -3,6 +3,7 @@ import React from 'react'
 function Experience() {
   return (
     <>
+     <div className='container'>
      <h2>Experience</h2>
      <div >
               <h3>Software Engineer F2, Zensar Technologies- Pune, India (Dec 2021 - Dec 2022)</h3>
@@ -22,6 +23,8 @@ function Experience() {
                 <li>Making websites ADA compliance by following the WCAG guidelines.</li>
               </ul>
     </div>
+       
+     </div>
     </>
   )
 }

@@ -3,21 +3,92 @@ import React from 'react'
 function Skills() {
   return (
    <>
-    <h2>Skills</h2>
-    <div className="row">
-              <div className='col-md-3 '><h3>Angular 2+</h3></div>
-              <div className='col-md-3 '><h3>React JS</h3></div>
-              <div className='col-md-3 '><h3>Node JS</h3></div>
-              <div className='col-md-3 '><h3>Mongo DB</h3></div>
-              <div className='col-md-3 '><h3>Typescript</h3></div>
-              <div className='col-md-3 '><h3>Javascript</h3></div>
-              <div className='col-md-3 '><h3>Jquery</h3></div>
-              <div className='col-md-3 '><h3>HTML5</h3></div>
-              <div className='col-md-3 '><h3>CSS 3</h3></div>
-              <div className='col-md-3 '><h3>Java</h3></div>
-              <div className='col-md-3 '><h3>Android Studio</h3></div>
-              <div className='col-md-3 '><h3>GIT</h3></div>
-              <div className='col-md-3 '><h3>SQL</h3></div>
+    <div className={`container vh-120 bg-white mt-6`}>
+          <h2 className="display-4 mb-4">Skills</h2>
+          <div className='row my-2 justify-content-center align-items-center'>
+                <div className='col-8 col-lg-4 col-xl-3'>
+                      <div className='card border-secondary border-2 mb-2'>
+                          <div className='card-title text-center py-1'>ANGULAR 2+</div>
+                      </div>
+                </div>
+                <div className='col-8 col-lg-4 col-xl-3'>
+                <div className='card border-secondary border-2 mb-2'>
+                          <div className='card-title text-center py-1'>REACT JS</div>
+                      </div>
+                </div>
+                <div className='col-8 col-lg-4 col-xl-3'>
+                <div className='card border-secondary border-2 mb-2'>
+                          <div className='card-title text-center py-1'>NODE JS</div>
+                      </div>
+                </div>        
+          </div>
+
+          <div className='row my-2 justify-content-center align-items-center'>
+                <div className='col-8 col-lg-4 col-xl-3'>
+                <div className='card border-secondary border-2 mb-2'>
+                          <div className='card-title text-center py-1'>JAVASCRIPT</div>
+                      </div>
+                </div>
+                <div className='col-8 col-lg-4 col-xl-3'>
+                <div className='card border-secondary border-2 mb-2'>
+                          <div className='card-title text-center py-1'>TYPESCRIPT</div>
+                      </div>
+                </div>
+                <div className='col-8 col-lg-4 col-xl-3'>
+                <div className='card border-secondary border-2 mb-2'>
+                          <div className='card-title text-center py-1'>JQUERY</div>
+                      </div>
+                </div>        
+          </div>
+
+          <div className='row my-2 justify-content-center align-items-center'>
+                <div className='col-8 col-lg-4 col-xl-3'>
+                <div className='card border-secondary border-2 mb-2'>
+                          <div className='card-title text-center py-1'>HTML 5</div>
+                      </div>
+                </div>
+                <div className='col-8 col-lg-4 col-xl-3'>
+                <div className='card border-secondary border-2 mb-2'>
+                          <div className='card-title text-center py-1'>CSS3</div>
+                      </div>
+                </div>
+                <div className='col-8 col-lg-4 col-xl-3'>
+                <div className='card border-secondary border-2 mb-2'>
+                          <div className='card-title text-center py-1'>BOOTSTRAP</div>
+                      </div>
+                </div>        
+          </div>
+
+          <div className='row my-2 justify-content-center align-items-center'>
+                <div className='col-8 col-lg-4 col-xl-3'>
+                <div className='card border-secondary border-2 mb-2'>
+                          <div className='card-title text-center py-1'>JAVA</div>
+                      </div>
+                </div>
+                <div className='col-8 col-lg-4 col-xl-3'>
+                <div className='card border-secondary border-2 mb-2'>
+                          <div className='card-title text-center py-1'>ANDROID STUDIO</div>
+                      </div>
+                </div>
+                <div className='col-8 col-lg-4 col-xl-3'>
+                <div className='card border-secondary border-2 mb-2'>
+                          <div className='card-title text-center py-1'>GIT</div>
+                      </div>
+                </div>        
+          </div>
+
+          <div className='row my-2 justify-content-center align-items-center'>
+                <div className='col-8 col-lg-4 col-xl-3'>
+                <div className='card border-secondary border-2 mb-2'>
+                          <div className='card-title text-center py-1'>MONGODB</div>
+                      </div>
+                </div>
+                <div className='col-8 col-lg-4 col-xl-3'>
+                <div className='card border-secondary border-2 mb-2'>
+                          <div className='card-title text-center py-1'>SQL</div>
+                      </div>
+                </div>        
+          </div>
     </div>
    </>
   )

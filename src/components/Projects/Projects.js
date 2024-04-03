@@ -3,6 +3,7 @@ import React from 'react'
 function Projects() {
   return (
     <>
+     <div className='container'>
      <h2>Projects</h2>
     <div>
               <h3>Digital Diary</h3>
@@ -24,6 +25,8 @@ function Projects() {
                 massa vestibulum eget. Mauris quis felis ac arcu maximus placerat ac eget massa.
               </p>
     </div>
+
+     </div>
     </>
   )
 }
