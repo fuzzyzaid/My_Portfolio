@@ -14,7 +14,7 @@ function Home() {
     <Header/>
     <About/>
     <Skills/>
-    {/* <Experience/>
+    {/*<Experience/>
     <Projects/>
     <Education/> */}
     </>

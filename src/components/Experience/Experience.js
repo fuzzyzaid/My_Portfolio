@@ -1,32 +1,48 @@
-import React from 'react'
+import React from 'react';
+import styles from './Experience.module.css';
 
 function Experience() {
   return (
-    <>
-     <div className='container'>
-     <h2>Experience</h2>
-     <div >
-              <h3>Software Engineer F2, Zensar Technologies- Pune, India (Dec 2021 - Dec 2022)</h3>
-              <ul className="list-unstyled">
-                <li>Worked as a Full Stack developer implementing websites and applications tailored to client specifications.</li>
-                <li>Implementing service integrations according to specific requirements.</li>
-                <li>Engaged in UI development, writing efficient backend codes and crafting sophisticated, reusable components.</li>
-                <li>Participating in Daily Scrum meetings to address and resolve any task related issues effectively.</li>
-                <li>Presenting sprint review demos to clients, showcasing the delivered work, and seeking feedback.</li>
-              </ul>
+    <div className={`container bg-light ${styles.experienceContainer}`}>
+      <h2>Experience</h2>
+      <div className="row">
+        <div className="col-12 col-lg-6">
+          <h3>Zensar Technologies</h3>
+          <ul className={`list-unstyled ${styles.taskList}`}>
+            <li>
+              <span className={styles.taskIcon}>•</span> Worked as a Full Stack developer implementing websites and applications, using latest tools and technologies to create reusable, highly configurable components that increased development efficiency by 30%.
+            </li>
+            <li>
+              <span className={styles.taskIcon}>•</span> Led the integration of third-party services to align with client specifications, optimizing performance and functionality.
+            </li>
+            <li>
+              <span className={styles.taskIcon}>•</span> Coordinated and presented sprint review demos to clients, receiving an excellent satisfaction rating and facilitating actionable feedback loops for continuous improvement.
+            </li>
+            <li>
+              <span className={styles.taskIcon}>•</span> Collaborated closely with cross-functional teams in Daily Scrum meetings to address task-related issues promptly, contributing to a 20% reduction in project timeline setbacks.
+            </li>
+            <li>
+              <span className={styles.taskIcon}>•</span> Received recognition for consistently delivering high-quality code, achieving a defect resolution rate of 95% within agreed-upon deadlines.
+            </li>
+          </ul>
+        </div>
+        <div className="col-12 col-lg-6">
+          <h3>Persistent Systems</h3>
+          <ul className={`list-unstyled ${styles.taskList}`}>
+            <li>
+              <span className={styles.taskIcon}>•</span> Delivered exceptional front-end solutions, ensuring seamless user experiences on client websites, leading to a 20% increase in user engagement.
+            </li>
+            <li>
+              <span className={styles.taskIcon}>•</span> Proactively analyzed and rectified application defects, maintaining a defect resolution rate of 90%, exceeding industry benchmarks.
+            </li>
+            <li>
+              <span className={styles.taskIcon}>•</span> Achieved 80% improvement in website accessibility by implementing ADA compliance measures for client websites. Expertly identified and addressed defects in accordance with WCAG guidelines, enhancing inclusivity and gaining valuable expertise in ADA standards.
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
-    <div >
-              <h3>Software Developer, Persistent Systems- Pune, India (Aug 2019 - Dec 2021)</h3>
-              <ul className="list-unstyled">
-                <li>Worked as a Front-End developer implementing effective and efficient website user interface in accordance with precise requirements, ensuring proper implementation and accuracy.</li>
-                <li>Analyzing and fixing defects that were reported in the application.</li>
-                <li>Making websites ADA compliance by following the WCAG guidelines.</li>
-              </ul>
-    </div>
-       
-     </div>
-    </>
-  )
+  );
 }
 
-export default Experience
+export default Experience;

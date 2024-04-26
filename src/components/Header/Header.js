@@ -12,7 +12,7 @@ function Header() {
   };
 
   return (
-    <div className={`container vh-100 ${menuOpen ? `${styles.menuOpen}`: ''}`}>
+    <div className={`container ${menuOpen ? `${styles.menuOpen}`: ''} ${styles.customHeight}`}>
       <nav className="navbar navbar-expand-lg navbar-light mt-4">
         <div className="container">
           <a>
@@ -40,7 +40,6 @@ function Header() {
         </div>
       </nav>
       <div className={`container ${styles.headerInfo}`}>
-        <p className='lead'>The site is under progress....</p>
         <h1 className={`${styles.name}`}>Zaid Alam</h1> {/* Larger font */}
         <p className={`${styles.title} mt-2`}>Full Stack Developer</p>
         <p className={`${styles.intro} mt-2`}>Passionate about building scalable and user-friendly web applications.</p>

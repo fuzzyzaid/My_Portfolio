@@ -57,4 +57,40 @@
       display: block; /* Show menu items when menu is open */
     }
   }
+
+  /* Desktop */
+  .customHeight {
+    min-height: 100vh; /* Set minimum height to 100% of the viewport height */
+  }
+  
+  /* Mid screen */
+  @media (min-width: 769px) and (max-width: 991px) {
+    .customHeight {
+      min-height: 80vh; /* Set minimum height to 80% of the viewport height for medium-sized screens */
+    }
+  }
+
+/* Mobile */
+  @media (max-width: 768px) {
+    .customHeight {
+      min-height: auto; /* Reset minimum height for smaller screens */
+      padding-top: 50px; /* Add some top padding for spacing */
+      padding-bottom: 50px; /* Add some bottom padding for spacing */
+    }
+    .headerInfo {
+      text-align: center; /* Center-align the text on small screens */
+    }
+  
+    .name {
+      font-size: 2rem; /* Adjust the font size of the name for better readability */
+    }
+  
+    .title {
+      font-size: 1.5rem; /* Adjust the font size of the title for better readability */
+    }
+  
+    .intro {
+      font-size: 1.25rem; /* Adjust the font size of the introduction for better readability */
+    }
+  }
   
