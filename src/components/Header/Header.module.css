@@ -73,12 +73,14 @@
 /* Mobile */
   @media (max-width: 768px) {
     .customHeight {
-      min-height: auto; /* Reset minimum height for smaller screens */
+      min-height: 100vh; /* Reset minimum height for smaller screens */
       padding-top: 50px; /* Add some top padding for spacing */
       padding-bottom: 50px; /* Add some bottom padding for spacing */
     }
     .headerInfo {
       text-align: center; /* Center-align the text on small screens */
+      padding: 0;
+      margin-top: 20vh;
     }
   
     .name {

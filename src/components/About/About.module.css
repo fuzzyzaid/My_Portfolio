@@ -4,7 +4,9 @@
 .customHeight {
     min-height: 100vh; /* Set minimum height to 100% of the viewport height */
   }
-  
+.textColor{
+  color: #003b49;
+}
   @media (max-width: 768px) {
     .customHeight {
       min-height: auto; /* Reset minimum height for smaller screens */

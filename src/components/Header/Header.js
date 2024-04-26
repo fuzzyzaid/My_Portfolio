@@ -13,7 +13,7 @@ function Header() {
 
   return (
     <div className={`container ${menuOpen ? `${styles.menuOpen}`: ''} ${styles.customHeight}`}>
-      <nav className="navbar navbar-expand-lg navbar-light mt-4">
+      <nav className="navbar navbar-expand-lg navbar-light">
         <div className="container">
           <a>
            <span> <img src={"Logo.png"} className={`${styles.logo} rounded-4`} alt="Logo" /></span>
