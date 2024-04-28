@@ -2,7 +2,7 @@
   /* About.module.css */
 
 .customHeight {
-    min-height: 100vh; /* Set minimum height to 100% of the viewport height */
+    min-height: 80vh; /* Set minimum height to 100% of the viewport height */
   }
 .textColor{
   color: #003b49;
@@ -10,7 +10,6 @@
   @media (max-width: 768px) {
     .customHeight {
       min-height: auto; /* Reset minimum height for smaller screens */
-      padding-top: 50px; /* Add some top padding for spacing */
       padding-bottom: 50px; /* Add some bottom padding for spacing */
     }
   }
