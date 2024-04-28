@@ -32,3 +32,9 @@ h2,h3{
 li{
   margin-bottom: 2%;
 }
+
+@media (max-width: 768px) {
+  .experienceCard {
+    height: auto;
+  }
+}
