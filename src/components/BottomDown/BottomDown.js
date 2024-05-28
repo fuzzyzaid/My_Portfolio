@@ -14,7 +14,7 @@ const BottomDown = ({ children }) => {
       opacity: inView ? 1 : 0,
     },
     config: {
-      duration: 1000,
+      duration: 1200,
     },
   });
   

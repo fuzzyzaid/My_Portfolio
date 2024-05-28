@@ -14,7 +14,7 @@ const SlideRight = ({ children }) => {
       opacity: inView ? 1 : 0,
     },
     config: {
-      duration: 1500,
+      duration: 1200,
     },
   });
   
