@@ -38,27 +38,7 @@
     width: 80px;
     height: auto;
   }
-  /* Hamburger Menu Icon */
-  .navbar-toggler {
-    display: none; /* Hide by default */
-  }
   
-  /* Toggle hamburger menu and close icon on smaller screens */
-  @media (max-width: 767px) {
-    .navbar-toggler {
-      display: block; /* Show hamburger menu icon */
-      margin-left: auto; 
-    }
-  
-    .navbar-collapse {
-      display: none; /* Hide menu items by default */
-    }
-  
-    .navbar-collapse.show {
-      display: block; /* Show menu items when menu is open */
-    }
-  }
-
   /* Desktop */
   .customHeight {
     min-height: 100vh; /* Set minimum height to 100% of the viewport height */
@@ -93,6 +73,9 @@
   
     .intro {
       font-size: 1.25rem; /* Adjust the font size of the introduction for better readability */
+    }
+    ul{
+      align-items: center;
     }
   }
   

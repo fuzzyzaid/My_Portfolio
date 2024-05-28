@@ -1,75 +1,78 @@
+.customHeight {
+  min-height: 80vh; /* Set minimum height to 100% of the viewport height */
+}
 .skillProgressBar {
   height: 30px;
 }
-.textColor,span{
+.textColor,
+span {
   color: #003b49;
 }
-.bgCOlor{
-  background-color:#00bfb2;
-  color:black;
+.bgCOlor {
+  background-color: #00bfb2;
+  color: black;
   font-size: 1.2rem;
   text-align: left;
   padding-left: 2%;
-  
 }
-.Angular{
+.Angular {
   width: 80%;
 }
-.React{
+.React {
   width: 80%;
 }
-.Node{
+.Node {
   width: 70%;
 }
-.Javascript{
+.Javascript {
   width: 80%;
 }
-.Html{
+.Html {
   width: 85%;
 }
-.Css{
+.Css {
   width: 75%;
 }
-.Bootstrap{
+.Bootstrap {
   width: 70%;
 }
-.Typescript{
+.Typescript {
   width: 70%;
 }
-.jquery{
+.jquery {
   width: 70%;
 }
-.git{
+.git {
   width: 80%;
 }
-.mongodb{
+.mongodb {
   width: 70%;
 }
-.sql{
+.sql {
   width: 50%;
 }
-.as{
-width: 75%;
+.as {
+  width: 75%;
 }
-.java{
-width: 80%;
+.java {
+  width: 80%;
 }
 @media (min-width: 992px) {
-  .customHeight {
-    height: 80vh; 
-  }
+  /* .customHeight {
+    height: 80vh;
+  } */
 
   .textTop {
-    margin-top: -20rem; 
+    margin-top: -20rem;
   }
 }
 
 @media (max-width: 992px) {
   .skillsContainer {
-    order: 2; 
+    order: 2;
   }
-  
+
   .textTop {
-    order: 1; 
+    order: 1;
   }
 }

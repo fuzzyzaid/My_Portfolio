@@ -1,40 +1,79 @@
-.experienceContainer {
-  border-radius: 10px;
-  margin-top: 8vh;
+.customHeight {
+  min-height: 80vh; /* Set minimum height to 80% of the viewport height */
 }
-h2,h3{
+
+.experienceContainer {
+  border: 2px solid #94a596;
+  border-radius: 12px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+  margin-bottom: 20px;
+}
+
+.experienceContainer:hover {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+h2,
+h3 {
   color: #003b49 !important;
   margin-bottom: 2%;
 }
 
-.experienceCard {
-  height: 60vh;
-  border: 2px solid #94a596;;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  transition: box-shadow 0.3s ease-in-out;
-  border-radius: 12px;
+.companyDetailsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.experienceCard:hover {
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+.companyDetailsInner {
+  text-align: center;
+}
+
+.companyName {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.companyDetails {
+  margin-bottom: 1.5rem;
 }
 
 .taskIcon {
-  color: #007bff; 
-  margin-right: 5px;
-  margin-bottom: 2%;
+  color: #007bff;
+  margin-right: 10px;
 }
 
 .taskList {
   padding-left: 0;
-  text-align: left;
 }
-li{
-  margin-bottom: 2%;
+
+li {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: start;
+}
+
+@media (min-width: 992px) {
+  .customHeight {
+    max-width: 900px;
+    margin: 0 auto;
+  }
 }
 
 @media (max-width: 768px) {
-  .experienceCard {
-    height: auto;
+  .experienceContainer {
+    padding: 15px;
+  }
+
+  .taskIcon {
+    margin-right: 5px;
+  }
+
+  li {
+    margin-bottom: 0.8rem;
   }
 }
