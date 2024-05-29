@@ -7,6 +7,9 @@
   color: #003b49;
   margin: 1.2rem;
 }
+img{
+  border-radius: 20px;
+}
 @media (max-width: 768px) {
   .customHeight {
     min-height: auto; /* Reset minimum height for smaller screens */

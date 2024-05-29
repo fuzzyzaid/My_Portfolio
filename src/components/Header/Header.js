@@ -41,7 +41,7 @@ function Header() {
       </nav>
       <div className={`container ${styles.headerInfo}`}>
         <h1 className={`${styles.name}`}>Zaid Alam</h1> {/* Larger font */}
-        <p className={`${styles.title} mt-2`}>Full Stack Developer</p>
+        <p className={`${styles.title} mt-2`}>Full-Stack Developer</p>
         <p className={`${styles.intro} mt-2`}>Passionate about building scalable and user-friendly web applications.</p>
        
         {/* <img src={"zaid.JPG"} class= {`${styles.profile} rounded-4`} alt="Zaid Alam" /> */}

@@ -15,9 +15,9 @@ import BottomDown from '../BottomDown/BottomDown';
 function Home() {
   return (
     <>
-    <BounceInAnimation>
+    <BottomDown>
       <Header/>
-    </BounceInAnimation>
+    </BottomDown>
     <SlideRight>
       <About/>
     </SlideRight>

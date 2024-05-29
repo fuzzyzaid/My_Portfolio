@@ -14,7 +14,7 @@ function Experience() {
             <div className={styles.companyDetailsInner}>
               <h3 className={styles.companyName}>Zensar Technologies <br />Pune,India</h3>
               <p className={styles.companyDetails}>
-                <strong> Full Stack Developer<br />December 2021 - December 2022</strong>
+                <strong> Full-Stack Developer<br />December 2021 - December 2022</strong>
               </p>
             </div>
           </div>
@@ -25,7 +25,7 @@ function Experience() {
                   <FontAwesomeIcon icon={faHashtag} />
                 </div>
                 <span>
-                  Worked as a Full Stack developer implementing websites and applications, using latest tools and technologies to create reusable, highly configurable components that increased development efficiency by 30%.
+                  Worked as a Full-Stack developer implementing websites and applications, using latest tools and technologies to create reusable, highly configurable components that increased development efficiency by 30%.
                 </span>
               </li>
               <li className="d-flex align-items-start">
