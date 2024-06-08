@@ -55,7 +55,7 @@ function Skills() {
         <div className={`col-12 col-lg-4 text-center text-md-start ${styles.textTop}`}>
         <h2 className={`display-4 mb-4 ${styles.textColor} `}>Skills</h2>
         <p className={`lead ${styles.textColor}`}>
-          Let's now explore my skillset equipped with latest tools and technologies.
+        Dive into my diverse skillset, crafted with precision using the latest tools and technologies. From frontend frameworks to backend systems, databases, version control and more, I excel in harnessing cutting-edge solutions to deliver robust and seamless experiences.
         </p>
         </div>
       </div>

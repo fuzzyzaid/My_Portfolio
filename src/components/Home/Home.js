@@ -9,7 +9,6 @@ import Projects from '../Projects/Projects';
 import Education from '../Education/Education';
 import BounceInAnimation from '../BounceInAnimation/BounceInAnimation';
 import SlideRight from '../SlideRight/SlideRight';
-import SlideLeft from '../SlideLeft/SlideLeft';
 import BottomDown from '../BottomDown/BottomDown';
 
 function Home() {
@@ -27,8 +26,10 @@ function Home() {
     <SlideRight>
       <Experience/>
     </SlideRight>
-    {/*<Projects/>
-    <Education/> */}
+     {/*<BounceInAnimation>
+     <Projects/>
+    </BounceInAnimation>
+   <Education/> */}
    
     </>
   );
