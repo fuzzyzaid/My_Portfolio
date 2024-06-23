@@ -35,8 +35,8 @@ function Experience() {
     <div className={`container ${styles.customHeight}`}>
     <div className="row">
       <div className="col-12 text-center mb-4">
-        <h2 className="mt-4 mb-2">Work Experience</h2>
-        <p className="lead">Embark on a journey through my professional timeline, where each experience has contributed to my growth over the past three years. From crafting immersive web experiences to optimizing performance and functionality, my work reflects a commitment to excellence and a passion for innovation.</p>
+      <h2 className={`display-4 mb-4 ${styles.textColor} ${styles.heading}`}>WORK EXPERIENCE</h2>
+      <p className={`lead ${styles.textColor}`}>Embark on a journey through my professional timeline, where each experience has contributed to my growth over the past three years. From crafting immersive web experiences to optimizing performance and functionality, my work reflects a commitment to excellence and a passion for innovation.</p>
       </div>
     </div>
     <div className={`row ${styles.experienceContainer}`}>

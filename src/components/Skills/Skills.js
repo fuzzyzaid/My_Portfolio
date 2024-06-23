@@ -53,7 +53,7 @@ function Skills() {
           </div>
         </div>
         <div className={`col-12 col-lg-4 text-center text-md-start ${styles.textTop}`}>
-        <h2 className={`display-4 mb-4 ${styles.textColor} `}>Skills</h2>
+        <h2 className={`display-4 mb-4 ${styles.textColor} ${styles.heading}`}>SKILLS</h2>
         <p className={`lead ${styles.textColor}`}>
         Dive into my diverse skillset, crafted with precision using the latest tools and technologies. From frontend frameworks to backend systems, databases, version control and more, I excel in harnessing cutting-edge solutions to deliver robust and seamless experiences.
         </p>

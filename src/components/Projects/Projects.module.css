@@ -1,29 +1,91 @@
+.customHeight {
+  min-height: 80vh; /* Set minimum height to 80% of the viewport height */
+}
+
+h2,
+p,
+h3 {
+  color: #003b49 !important;
+}
+
+.heading {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.subheading {
+  font-size: 20px;
+  font-weight: 400;
+  color: #003b49;
+}
+.textColor {
+  color: #003b49;
+  margin: 1.2rem;
+}
+
 .projectCard {
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 20px;
+  border: 2px solid #94a596;
+  border-radius: 12px;
+  margin: 1rem;
+  padding: 1.5rem;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.projectCard:hover {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.projectContent {
+  padding-left: 20px;
+}
+
+.projectVideo {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.projectTitle {
+  font-size: 24px;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 1rem;
+}
+
+.projectDescription {
+  font-size: 16px;
+  color: #555;
+}
+
+.projectRepoLink {
+  margin-top: 15px;
+  display: inline-block;
+  font-size: 16px;
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.projectRepoLink:hover {
+  color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .projectCard {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .projectContent {
+    padding-left: 0;
+    margin-top: 20px;
+  }
+
+  .projectVideo {
     margin-bottom: 20px;
-    background-color: #fff;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   }
-  
-  .projectCard h3 {
-    margin-top: 15px;
-    font-size: 20px;
-  }
-  
-  .projectCard p {
-    margin-top: 10px;
-    font-size: 16px;
-  }
-  
-  .projectImage {
-    border-radius: 5px;
-    width: 100%;
-    height: auto;
-  }
-  
-  .heading {
-    font-size: 24px;
-  }
-  
+}

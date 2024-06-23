@@ -1,4 +1,3 @@
-// React
 import { useState } from "react";
 
 // Libs
@@ -14,14 +13,13 @@ const BounceInAnimation = ({ children }) => {
       opacity: inView ? 1 : 0,
     },
     config: {
-      duration: 1200,
+      duration: 1000,
     },
   });
 
   return (
     <Waypoint
       onEnter={() => setInView(true)}
-      onLeave={() => setInView(false)}
     >
       <animated.div style={transition}>
         {children}

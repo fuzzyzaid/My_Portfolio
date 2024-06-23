@@ -57,6 +57,10 @@ span {
 .java {
   width: 80%;
 }
+.heading {
+  font-size: 30px;
+  font-weight: 500;
+}
 @media (min-width: 992px) {
   /* .customHeight {
     height: 80vh;

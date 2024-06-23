@@ -63,6 +63,14 @@ li {
   color: #7da1c4;
   margin-right: 10px;
 }
+.textColor {
+  color: #003b49;
+  margin: 1.2rem;
+}
+.heading {
+  font-size: 30px;
+  font-weight: 500;
+}
 
 
 @media (max-width: 768px) {

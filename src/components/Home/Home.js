@@ -8,28 +8,31 @@ import Experience from '../Experience/Experience';
 import Projects from '../Projects/Projects';
 import Education from '../Education/Education';
 import BounceInAnimation from '../BounceInAnimation/BounceInAnimation';
-import SlideRight from '../SlideRight/SlideRight';
-import BottomDown from '../BottomDown/BottomDown';
 
 function Home() {
   return (
     <>
-    <BottomDown>
+    <BounceInAnimation>
       <Header/>
-    </BottomDown>
-    <SlideRight>
+    </BounceInAnimation>
+
+    <BounceInAnimation>
       <About/>
-    </SlideRight>
+    </BounceInAnimation>
+
     <BounceInAnimation>
       <Skills/>
     </BounceInAnimation>
-    <SlideRight>
+
+    <BounceInAnimation>
       <Experience/>
-    </SlideRight>
-     {/*<BounceInAnimation>
-     <Projects/>
     </BounceInAnimation>
-   <Education/> */}
+
+     <BounceInAnimation>
+      <Projects/>
+    </BounceInAnimation>
+
+   {/*<Education/> */}
    
     </>
   );
