@@ -9,7 +9,7 @@ function Experience() {
       company: "Zensar Technologies",
       location: "Pune, India",
       role: "Full-Stack Developer",
-      period: "December 2021 - December 2022",
+      period: "Dec 2021 - Dec 2022",
       details: [
         "Worked as a Full-Stack developer implementing websites and applications, using latest tools and technologies to create reusable, highly configurable components that increased development efficiency by 30%.",
         "Led the integration of third-party services to align with client specifications, optimizing performance and functionality.",
@@ -22,7 +22,7 @@ function Experience() {
       company: "Persistent Systems",
       location: "Pune, India",
       role: "Front-End Developer",
-      period: "August 2019 - December 2021",
+      period: "Aug 2019 - Dec 2021",
       details: [
         "Delivered exceptional front-end solutions, ensuring seamless user experiences on client websites, leading to a 20% increase in user engagement.",
         "Proactively analyzed and rectified application defects, maintaining a defect resolution rate of 90%, exceeding industry benchmarks.",
@@ -33,47 +33,52 @@ function Experience() {
 
   return (
     <div className={`container ${styles.customHeight}`}>
-    <div className="row">
-      <div className="col-12 text-center mb-4">
-      <h2 className={`display-4 mb-4 ${styles.textColor} ${styles.heading}`}>WORK EXPERIENCE</h2>
-      <p className={`lead ${styles.textColor}`}>Embark on a journey through my professional timeline, where each experience has contributed to my growth over the past three years. From crafting immersive web experiences to optimizing performance and functionality, my work reflects a commitment to excellence and a passion for innovation.</p>
-      </div>
-    </div>
-    <div className={`row ${styles.experienceContainer}`}>
-      <div className="col-12">
-        <div className="row">
-          {experiences.map((exp, index) => (
-            <div key={index} className={`col-12 col-md-6 ${styles.experienceColumn}`}>
-              <div>
-                <h3 className={styles.companyName}>
-                  {exp.company} <br /> <span>{exp.location}</span>
-                </h3>
-                <p className={styles.companyDetails}>
-                  <strong>
-                    {exp.role} <br /> {exp.period}
-                  </strong>
-                </p>
-                <ul className={`list-unstyled ${styles.taskList}`}>
-                  {exp.details.map((detail, i) => (
-                    <li key={i} className="d-flex align-items-start">
-                      <div className={`me-2 ${styles.taskIcon}`}>
-                        <FontAwesomeIcon icon={faHashtag} />
-                      </div>
-                      <span>{detail}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              {/* Add a horizontal line after the "Zensar Technologies" experience in mobile view */}
-              {index === 0 && (
-                <div className={`horizontal-line ${styles.horizontalLine}`} />
-              )}
-            </div>
-          ))}
+      <div className="row">
+        <div className="col-12 text-center mb-4">
+          <h2 className={`display-4 mb-4 ${styles.textColor} ${styles.heading}`}>
+            WORK EXPERIENCE
+          </h2>
+          <p className={`lead ${styles.textColor} ${styles.lead}`}>
+            Embark on a journey through my professional timeline, where each
+            experience has contributed to my growth over the past three years.
+            From crafting immersive web experiences to optimizing performance
+            and functionality, my work reflects a commitment to excellence and a
+            passion for innovation.
+          </p>
         </div>
       </div>
+      <div className={`row ${styles.experienceContainer}`}>
+        {experiences.map((exp, index) => (
+          <div key={index} className={`col-12 col-md-6 ${styles.experienceColumn}`}>
+            <div className={`${styles.headerCompany}`} >
+              <h3 className={styles.companyName}>
+              {exp.role}
+                
+              </h3>
+              <p className={styles.companyDetails}>
+                <strong>
+                {exp.company} <br /> <span>{exp.location}</span>  <br /> {exp.period}
+                </strong>
+              </p>
+              <ul className={`list-unstyled ${styles.taskList}`}>
+                {exp.details.map((detail, i) => (
+                  <li key={i} className="d-flex align-items-start">
+                    <div className={`me-2 ${styles.taskIcon}`}>
+                      <FontAwesomeIcon icon={faHashtag} />
+                    </div>
+                    <p className={`${styles.details}`}>{detail}</p>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            {/* Add a horizontal line after the "Zensar Technologies" experience in mobile view */}
+            {index === 0 && (
+              <div className={`horizontal-line ${styles.horizontalLine}`} />
+            )}
+          </div>
+        ))}
+      </div>
     </div>
-  </div>  
   );
 }
 

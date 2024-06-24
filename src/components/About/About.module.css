@@ -1,28 +1,37 @@
 /* About.module.css */
-
 .customHeight {
-  min-height: 80vh; /* Set minimum height to 100% of the viewport height */
+  min-height: 80vh;
 }
+
 .textColor {
   color: #003b49;
   margin: 1.2rem;
 }
+
 .heading {
   font-size: 30px;
   font-weight: 500;
 }
-img{
+
+img {
   border-radius: 20px;
 }
+
 @media (max-width: 768px) {
   .customHeight {
-    min-height: auto; /* Reset minimum height for smaller screens */
-    padding-bottom: 50px; /* Add some bottom padding for spacing */
+    min-height: auto; 
+    padding-bottom: 50px; 
+  }
+
+  .lead {
+    font-size: 1.20rem !important;
+    text-align: justify !important;
+    hyphens: auto !important;
   }
 }
 
-@media (min-width: 769px) and (max-width: 991px) {
+@media (min-width: 769px) {
   .customHeight {
-    min-height: 80vh; /* Set minimum height to 80% of the viewport height for medium-sized screens */
+    min-height: 80vh;
   }
 }

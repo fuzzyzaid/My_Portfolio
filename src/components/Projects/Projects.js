@@ -6,13 +6,13 @@ function Projects() {
   return (
     <div className={`container ${styles.customHeight}`}>
       <h2 className={`display-4 mb-4 ${styles.textColor} ${styles.heading}` }>PROJECTS</h2>
-      <p className={`lead ${styles.textColor}`}>Explore the projects I have crafted, showcasing my skills and dedication. Each project reflects the knowledge I've gained and the innovative solutions I've developed.</p>
+      <p className={`lead ${styles.textColor} ${styles.lead}`}>Explore the projects I have crafted, showcasing my skills and dedication. Each project reflects the knowledge I've gained and the innovative solutions I've developed.</p>
       <div className='row mb-5'>
         <div className='col-12'>
           <div className={`d-flex ${styles.projectCard}`}>
             <div className='col-md-6'>
               <div className={styles.projectVideo}>
-                <video controls width='100%'>
+                <video controls width='100%' autoPlay muted>
                   <source src={"EMS.mp4"} type='video/mp4' />
                   Your browser does not support the video tag.
                 </video>
@@ -40,7 +40,7 @@ function Projects() {
           <div className={`d-flex ${styles.projectCard}`}>
             <div className='col-md-6'>
               <div className={styles.projectVideo}>
-                <video controls width='100%'>
+                <video controls width='100%' autoPlay muted>
                   <source src={"DD.mp4"} type='video/mp4' />
                   Your browser does not support the video tag.
                 </video>

@@ -73,6 +73,11 @@ h3 {
 .projectRepoLink:hover {
   color: #0056b3;
 }
+.lead ,.projectContent p {
+  text-align: justify !important;
+  hyphens: auto !important;
+  margin-bottom: 0;
+}
 
 @media (max-width: 768px) {
   .projectCard {
