@@ -1,7 +1,7 @@
 // Header.jsx
 
 import React, { useState } from 'react';
-import { FaTimes } from 'react-icons/fa'; // Import close icon from react-icons
+import { FaTimes } from 'react-icons/fa'; 
 import styles from './Header.module.css';
 
 function Header() {

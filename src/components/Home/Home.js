@@ -32,7 +32,9 @@ function Home() {
       <Projects/>
     </BounceInAnimation>
 
-   {/*<Education/> */}
+    <BounceInAnimation>
+      <Education/>
+   </BounceInAnimation>
    
     </>
   );

@@ -1,5 +1,6 @@
 .customHeight {
-  min-height: 80vh; /* Set minimum height to 80% of the viewport height */
+  min-height: 80vh; 
+  margin-bottom: 2.5rem !important;
 }
 
 h2,
@@ -35,7 +36,7 @@ h3 {
   right: 0;
   width: 1px;
   height: 100%;
-  background-color: #003b49; /* Color of the vertical line */
+  background-color: #003b49; 
 }
 
 .companyName {

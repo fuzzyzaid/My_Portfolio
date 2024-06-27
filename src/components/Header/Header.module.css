@@ -1,9 +1,9 @@
 .menuOpen {
-    height: auto; /* Adjust height when menu is open */
+    height: auto; 
   }
   
   .headerInfo {
-    padding: 15vh; /* Adjust padding */
+    padding: 15vh;
     margin-top: 10vh;
   }
   .mail{
@@ -20,17 +20,17 @@
   }
   
   .name {
-    font-size: 5rem; /* Larger font size */
+    font-size: 5rem; 
     color: #003b49;
   }
 
   .title{
-    font-size: 1.5rem; /* Larger font size */
+    font-size: 1.5rem; 
     color: #003b49;
   }
   
   .intro {
-    font-size: 1.3rem; /* Larger font size */
+    font-size: 1.3rem; 
     color: #003b49;
    
   }
@@ -41,38 +41,38 @@
   
   /* Desktop */
   .customHeight {
-    min-height: 100vh; /* Set minimum height to 100% of the viewport height */
+    min-height: 100vh; 
   }
   
   /* Mid screen */
   @media (min-width: 769px) and (max-width: 991px) {
     .customHeight {
-      min-height: 80vh; /* Set minimum height to 80% of the viewport height for medium-sized screens */
+      min-height: 80vh; 
     }
   }
 
 /* Mobile */
   @media (max-width: 768px) {
     .customHeight {
-      min-height: 100vh; /* Reset minimum height for smaller screens */
-      padding-top: 10px; /* Add some top padding for spacing */
+      min-height: 100vh; 
+      padding-top: 10px; 
     }
     .headerInfo {
-      text-align: center; /* Center-align the text on small screens */
+      text-align: center; 
       padding: 0;
       margin-top: 30vh;
     }
   
     .name {
-      font-size: 2rem; /* Adjust the font size of the name for better readability */
+      font-size: 2rem; 
     }
   
     .title {
-      font-size: 1.5rem; /* Adjust the font size of the title for better readability */
+      font-size: 1.5rem; 
     }
   
     .intro {
-      font-size: 1.25rem; /* Adjust the font size of the introduction for better readability */
+      font-size: 1.25rem; 
     }
     ul{
       align-items: center;
