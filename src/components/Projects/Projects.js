@@ -77,7 +77,7 @@ function Projects() {
             <div className='col-md-6'>
               <div className={styles.projectVideo}>
                 <video controls width='100%' autoPlay muted>
-                  <source src={"Blogz.mp4"} type='video/mp4' />
+                  <source src={"BlogZ.mp4"} type='video/mp4' />
                   Your browser does not support the video tag.
                 </video>
               </div>
