@@ -41,7 +41,7 @@ function Projects() {
         </div>
       </div>
       
-      <div className='row mb-5'>
+      {/* <div className='row mb-5'>
         <div className='col-12'>
           <div className={`d-flex ${styles.projectCard}`}>
             <div className='col-md-6'>
@@ -69,7 +69,7 @@ function Projects() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       
       <div className='row mb-5'>
         <div className='col-12'>
