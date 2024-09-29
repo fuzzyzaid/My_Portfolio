@@ -50,6 +50,9 @@ function Skills() {
               <div className={`progress mb-3 ${styles.skillProgressBar}`}>
                 <div className={`progress-bar ${styles.bgCOlor} ${styles.java}`} role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Java</div>
               </div>
+              <div className={`progress mb-3 ${styles.skillProgressBar}`}>
+                <div className={`progress-bar ${styles.bgCOlor} ${styles.java}`} role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Python</div>
+              </div>
             </div>
           </div>
           <div className={`col-12 col-lg-4 text-center text-md-start ${styles.textTop}`}>  

@@ -11,11 +11,12 @@ function Experience() {
       role: "Full-Stack Developer",
       period: "Dec 2021 - Dec 2022",
       details: [
-        "Full Stack developer implementing websites and applications, using Angular, Node JS, MongoDB to create reusable, highly configurable components that increased development efficiency by 30%.",
-        "Led the integration of third-party services to align with client specifications, optimizing performance and functionality.",
-        "Co-ordinated and presented sprint review demos to clients, receiving an excellent satisfaction rating, and facilitating actionable feedback loops for continuous improvement.",
+        "Implemented websites and applications, using Angular, Node JS, MongoDB to create reusable, highly configurable components that increased development efficiency by 30%.",
+        "Led the integration of third-party services to align with client specifications, optimizing performance and functionality, resulting in a 25% improvement in user satisfaction.",
+        "Coordinated and presented sprint review demos to clients, receiving a 95% satisfaction rating and facilitating actionable feedback loops for continuous improvement.",
         "Collaborated closely with cross-functional teams in Daily Scrum meetings to address task-related issues promptly, contributing to a 20% reduction in project timeline setbacks.",
-        "Received recognition for consistently delivering high-quality code, achieving a 95% success rate in resolving application defects within agreed-upon deadlines.",
+        "Recognized for delivering high-quality code with a 95% success rate in resolving application defects within deadlines.",
+        "Deployed code on the server, ensuring smooth and efficient deployment processes and maintaining continuous integration/continuous deployment (CI/CD) pipelines."
       ],
     },
     {
@@ -24,9 +25,10 @@ function Experience() {
       role: "Front-End Developer",
       period: "Aug 2019 - Dec 2021",
       details: [
-        "Key role in building web applications in a healthcare project using React, Angular, HTML, CSS, and Bootstrap. Delivered tailored web applications that exceeded client expectations by implementing client-specific features and functionalities.",
-        "Achieved 80% improvement in website accessibility by implementing ADA compliance measures for client websites. Identified and addressed defects in accordance with WCAG guidelines, enhancing inclusivity and gaining valuable expertise in ADA standards.",
-        "Effectively managed version control using Git and collaborated with the team through JIRA to maintain an organized development environment, enabling seamless story analysis and code check-ins.",
+        "Played a key role in building web applications using React, Angular, HTML, CSS, and Bootstrap, exceeding client expectations by 40%.",
+        "Achieved an 80% improvement in website accessibility by implementing ADA compliance measures and addressing defects in accordance with WCAG guidelines following all Web Accessibility standards",
+        "Managed version control using Git and collaborated with the team through JIRA, maintaining an organized development environment.",
+        "Participated in project planning, delivered code reviews, debugged problems, providing feedback relative to best practices."
       ],
     },
   ];
