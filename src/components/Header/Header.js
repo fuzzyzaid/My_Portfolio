@@ -24,16 +24,16 @@ function Header() {
           <div className={`collapse navbar-collapse ${menuOpen ? 'show' : ''}`}>
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link" href="mailto:zaidalam0731@gmail.com" target='_blank' rel="noreferrer"><i className={`${styles.mail}bi bi-envelope h1 mr-4`}></i></a>
+                <a className="nav-link" href="mailto:zaid.alam0743@gmail.com" target='_blank' rel="noreferrer"><i className={`${styles.mail}bi bi-envelope h1 mr-4`}></i></a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="https://www.linkedin.com/in/zaid-alam/" target='_blank' rel="noreferrer"><i className={`${styles.linkedIn} bi bi-linkedin h1  mr-4`}></i></a>
+                <a className="nav-link" href="https://www.linkedin.com/in/zaidalamm/" target='_blank' rel="noreferrer"><i className={`${styles.linkedIn} bi bi-linkedin h1  mr-4`}></i></a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="https://github.com/fuzzyzaid" target='_blank' rel="noreferrer"><i className={`${styles.github} bi bi-github h1  mr-4`}></i></a>               
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="tel:+12267538192" target='_blank' rel="noreferrer"><i className={`${styles.phone} bi bi-phone h1  mr-4`}></i></a>
+                <a className="nav-link" href="tel:+12898551627" target='_blank' rel="noreferrer"><i className={`${styles.phone} bi bi-phone h1  mr-4`}></i></a>
               </li>
             </ul>
           </div>

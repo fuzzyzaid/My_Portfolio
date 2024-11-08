@@ -11,12 +11,14 @@ function Experience() {
       role: "Full-Stack Developer",
       period: "Dec 2021 - Dec 2022",
       details: [
-        "Implemented websites and applications, using Angular, Node JS, MongoDB to create reusable, highly configurable components that increased development efficiency by 30%.",
-        "Led the integration of third-party services to align with client specifications, optimizing performance and functionality, resulting in a 25% improvement in user satisfaction.",
-        "Coordinated and presented sprint review demos to clients, receiving a 95% satisfaction rating and facilitating actionable feedback loops for continuous improvement.",
-        "Collaborated closely with cross-functional teams in Daily Scrum meetings to address task-related issues promptly, contributing to a 20% reduction in project timeline setbacks.",
-        "Recognized for delivering high-quality code with a 95% success rate in resolving application defects within deadlines.",
-        "Deployed code on the server, ensuring smooth and efficient deployment processes and maintaining continuous integration/continuous deployment (CI/CD) pipelines."
+        "Developed and maintained web and desktop applications using a variety of programming languages and frameworks, including Node.js, Express.js, JavaScript, Java, Spring Boot and React, to deliver high-quality software solutions",
+        "Successfully implemented comprehensive ADA compliance measures, meticulously addressing accessibility defects in line with WCAG standards, leading to a fully inclusive user experience",
+        "Utilized Git for meticulous version control, orchestrating smooth branching, merging, and deployment processes while maintaining a clean and organized codebase; facilitated seamless team collaboration",
+        "Participated in detailed project planning sessions, utilizing Agile methodologies, breaking down tasks into granular user stories, and estimating effort using story points, which streamlined development",
+        "Experience with messaging systems (Kafka), cache and message brokers (Redis), Figma and data collecting, managing and compliance systems like Splunk",
+        "Optimized existing codebases by refactoring and improving performance, reducing load times, and enhancing overall application efficiency",
+        "Worked collaboratively with multidisciplinary teams to pinpoint and resolve interface bugs, ensuring seamless integration and functionality across platforms",
+        "Applied in-depth software engineering skills to spearhead advancements and operational efficiencies within the project, ensuring alignment with technological best practices"
       ],
     },
     {
@@ -25,10 +27,14 @@ function Experience() {
       role: "Front-End Developer",
       period: "Aug 2019 - Dec 2021",
       details: [
-        "Played a key role in building web applications using React, Angular, HTML, CSS, and Bootstrap, exceeding client expectations by 40%.",
-        "Achieved an 80% improvement in website accessibility by implementing ADA compliance measures and addressing defects in accordance with WCAG guidelines following all Web Accessibility standards",
-        "Managed version control using Git and collaborated with the team through JIRA, maintaining an organized development environment.",
-        "Participated in project planning, delivered code reviews, debugged problems, providing feedback relative to best practices."
+        "Developed and maintained dynamic web applications using Angular for front-end, Node.js for back-end, and MongoDB for database management, ensuring high-performance and scalability",
+ 	      "Designed and implemented RESTful APIs to facilitate seamless data exchange between front-end and back-end, improving data handling and application responsiveness",
+	      "Employed JWT and OAuth for secure authentication and authorization, safeguarding application data and user privacy",
+        "Optimized application performance through lazy loading, code splitting, and efficient database queries, reducing load times and improving user experience",
+        "Leveraged Docker for containerization, streamlining the development, testing, and deployment process, and ensuring consistent environments across development and production",
+	      "Implemented CI/CD pipelines using GitHub Actions and Jenkins, automating build, test, and deployment workflows to accelerate release cycles and maintain code quality",
+      	"Developed and executed strategic enhancements to user interfaces, significantly boosting usability and streamlining interaction flows for better user engagement",
+        "Oversaw the implementation of stringent code review practices and coding standards, significantly elevating code quality and boosting development team efficiency"
       ],
     },
   ];

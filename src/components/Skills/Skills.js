@@ -36,13 +36,13 @@ function Skills() {
                 <div className={`progress-bar ${styles.bgCOlor} ${styles.jquery}`} role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">jQuery</div>
               </div>
               <div className={`progress mb-3 ${styles.skillProgressBar}`}>
-                <div className={`progress-bar ${styles.bgCOlor} ${styles.git}`} role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Git</div>
-              </div>
-              <div className={`progress mb-3 ${styles.skillProgressBar}`}>
                 <div className={`progress-bar ${styles.bgCOlor} ${styles.mongodb}`} role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">MongoDB</div>
               </div>
               <div className={`progress mb-3 ${styles.skillProgressBar}`}>
                 <div className={`progress-bar ${styles.bgCOlor} ${styles.sql}`} role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">SQL</div>
+              </div>
+              <div className={`progress mb-3 ${styles.skillProgressBar}`}>
+                <div className={`progress-bar ${styles.bgCOlor} ${styles.sql}`} role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">PostgreSQL</div>
               </div>
               <div className={`progress mb-3 ${styles.skillProgressBar}`}>
                 <div className={`progress-bar ${styles.bgCOlor} ${styles.as}`} role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Android Studio</div>
@@ -52,6 +52,21 @@ function Skills() {
               </div>
               <div className={`progress mb-3 ${styles.skillProgressBar}`}>
                 <div className={`progress-bar ${styles.bgCOlor} ${styles.java}`} role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Python</div>
+              </div>
+              <div className={`progress mb-3 ${styles.skillProgressBar}`}>
+                <div className={`progress-bar ${styles.bgCOlor} ${styles.git}`} role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Git</div>
+              </div>
+              <div className={`progress mb-3 ${styles.skillProgressBar}`}>
+                <div className={`progress-bar ${styles.bgCOlor} ${styles.java}`} role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Agile</div>
+              </div>
+              <div className={`progress mb-3 ${styles.skillProgressBar}`}>
+                <div className={`progress-bar ${styles.bgCOlor} ${styles.java}`} role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">JIRA</div>
+              </div>
+              <div className={`progress mb-3 ${styles.skillProgressBar}`}>
+                <div className={`progress-bar ${styles.bgCOlor} ${styles.java}`} role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">ADA</div>
+              </div>
+              <div className={`progress mb-3 ${styles.skillProgressBar}`}>
+                <div className={`progress-bar ${styles.bgCOlor} ${styles.java}`} role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">JAWS</div>
               </div>
             </div>
           </div>
