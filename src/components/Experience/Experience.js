@@ -15,7 +15,6 @@ function Experience() {
         "Successfully implemented comprehensive ADA compliance measures, meticulously addressing accessibility defects in line with WCAG standards, leading to a fully inclusive user experience",
         "Utilized Git for meticulous version control, orchestrating smooth branching, merging, and deployment processes while maintaining a clean and organized codebase; facilitated seamless team collaboration",
         "Participated in detailed project planning sessions, utilizing Agile methodologies, breaking down tasks into granular user stories, and estimating effort using story points, which streamlined development",
-        "Experience with messaging systems (Kafka), cache and message brokers (Redis), Figma and data collecting, managing and compliance systems like Splunk",
         "Optimized existing codebases by refactoring and improving performance, reducing load times, and enhancing overall application efficiency",
         "Worked collaboratively with multidisciplinary teams to pinpoint and resolve interface bugs, ensuring seamless integration and functionality across platforms",
         "Applied in-depth software engineering skills to spearhead advancements and operational efficiencies within the project, ensuring alignment with technological best practices"
@@ -31,7 +30,6 @@ function Experience() {
  	      "Designed and implemented RESTful APIs to facilitate seamless data exchange between front-end and back-end, improving data handling and application responsiveness",
 	      "Employed JWT and OAuth for secure authentication and authorization, safeguarding application data and user privacy",
         "Optimized application performance through lazy loading, code splitting, and efficient database queries, reducing load times and improving user experience",
-        "Leveraged Docker for containerization, streamlining the development, testing, and deployment process, and ensuring consistent environments across development and production",
 	      "Implemented CI/CD pipelines using GitHub Actions and Jenkins, automating build, test, and deployment workflows to accelerate release cycles and maintain code quality",
       	"Developed and executed strategic enhancements to user interfaces, significantly boosting usability and streamlining interaction flows for better user engagement",
         "Oversaw the implementation of stringent code review practices and coding standards, significantly elevating code quality and boosting development team efficiency"
