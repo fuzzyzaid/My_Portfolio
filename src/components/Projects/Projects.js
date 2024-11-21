@@ -6,7 +6,7 @@ function Projects() {
   return (
     <div className={`container ${styles.customHeight}`}>
       <h2 className={`display-4 mb-4 ${styles.textColor} ${styles.heading}` }>PROJECTS</h2>
-      <p className={`lead ${styles.textColor} ${styles.lead}`}>Explore the projects I have crafted, showcasing my skills and dedication. Each project reflects the knowledge I've gained and the innovative solutions I've developed.</p>
+      <p className={`lead ${styles.textColor} ${styles.lead}`}>Explore some of the recent projects I have crafted, showcasing my skills and dedication. Each project reflects the knowledge I've gained and the innovative solutions I've developed.</p>
 
       {/* First Project: Employee Management System */}
       <div className='row mb-5'>
@@ -79,12 +79,12 @@ function Projects() {
       {/* Footer Section */}
       <div className={`text-center ${styles.footer}`}>
         
-        <p className={`small ${styles.textColor}`}>
-          Discover more of my work on 
+        <p className={`${styles.textColor}`}>
+        ** Discover more of my work on 
           <a href='https://github.com/fuzzyzaid' target='_blank' rel='noopener noreferrer' className={`${styles.githubLink}`}>
              GitHub
           </a>
-        , where I showcase innovative projects and solutions. Take a deeper look at my coding journey.        </p>
+        , where I showcase innovative projects and solutions. **</p>
         
         <div className='mb-5'></div>
       </div>
